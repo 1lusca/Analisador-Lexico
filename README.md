@@ -12,21 +12,26 @@
 
 ### Tecnologias e Ferramentas 💻
 <p>
-  <img src="https://skillicons.dev/icons?i=vscode" />
+  
 </p>
 
 ##
 
 ### Usage 🛠️
 
+##### Execução no macOS
+- Necessário ter instalado o Flex e GCC.
 
 ``
-lex file.lex
+flex tga.lex
 ``
 
+``
+gcc -o tga lex.yy.c
+``
 
 ``
-gcc -o lala lala.c
+./tga
 ``
 
 
