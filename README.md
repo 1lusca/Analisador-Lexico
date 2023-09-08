@@ -23,7 +23,7 @@
 - Necessário ter instalado o Flex e GCC.
 
 ``
-flex tga.lex
+flex main.lex
 ``
 
 ``
