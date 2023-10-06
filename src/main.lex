@@ -137,14 +137,14 @@ COMMENT		"//"[^\n]*
 	int i;
 	for (i = 0; i < sizeof(varIds); i++){
         if(strcmp(&yytext[0], varIds[i]) == 0){
-			printf("[id, %d] ", i);
+			printf("[id, %s, %d] ", yytext, i);
 			breakStrcmp = true;
 			break;
 		}
 	}
 	if(!breakStrcmp){
 		strcpy(varIds[actualId], &yytext[0]);
-		printf("[id, %d] ", actualId);
+		printf("[id, %s, %d] ", yytext, actualId);
 		actualId++;
 	}else{
 		breakStrcmp = false;
