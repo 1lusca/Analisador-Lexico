@@ -7,6 +7,7 @@
 
 ### Analisador Léxico
 ##### Implementação de um analisador léxico para a cadeira de Tradudores.
+##### Nomes: Eduardo Pereira da Silva, Lucas Schneider e Marcos Roberto Souza
 
 ##
 
