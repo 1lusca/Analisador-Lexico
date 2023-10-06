@@ -10,13 +10,6 @@
 
 ##
 
-### Tecnologias e Ferramentas 💻
-<p>
-  
-</p>
-
-##
-
 ### Usage 🛠️
 
 ##### Execução no macOS
